@@ -23,14 +23,14 @@ You'll need to find images of each fruit to put in `images` folder.
 ## Process Guidence
 
 1. In your `index.html` 
-    1. Include an 'fruit-list' id on a <ul> element as a "placeholder" for js-generated <li>s
+    1. Include an 'fruit-list' id on a `<ul>` element as a "placeholder" for js-generated `<li>`s
     1. Add `<script>` for you js files!
 1. In 'fruit.js':
     1. create an array of objects to define your fruit
-    1. add function 'createLi' to each fruit that creates a <li> element with text
+    1. add function 'createLi' to each fruit that creates a `<li>` element with text
 1. In `app.js`:
     1. "import" (`globals`) `fruits` from `fruit.js`
-    1. process the fruits, using createLi fn to Append Child to <ul> element 
+    1. process the fruits, using createLi fn to Append Child to `<ul>` element 
 
 
 ## Stretch Goals
