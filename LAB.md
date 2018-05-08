@@ -1,7 +1,11 @@
 # Fruit Stand
 
 Write an fruit stand app that dynamically displays fruit information including name, an image, 
-and color of fruit based on fruit data
+and color of fruit based on fruit data.
+
+It might look something like this (but you can probably do something waaay better):
+
+![image](https://user-images.githubusercontent.com/478864/39771385-75865a74-529e-11e8-9fcc-4b81208195d8.png)
 
 ## Project structure
 
