@@ -5,7 +5,7 @@ and color of fruit based on fruit data.
 
 It might look something like this (but you can probably do something waaay better):
 
-![image](https://user-images.githubusercontent.com/478864/39771385-75865a74-529e-11e8-9fcc-4b81208195d8.png)
+<img src="https://user-images.githubusercontent.com/478864/39771385-75865a74-529e-11e8-9fcc-4b81208195d8.png" height="250px">
 
 ## Project structure
 
@@ -22,13 +22,20 @@ You'll need to find images of each fruit to put in `images` folder.
 
 ## Process Guidence
 
-1. In your `index.html` use a template element to describe the base html for an individual fruit list item (`li`)
+1. In your `index.html` 
+    1. Include a root element for "mounting" your app
+    1. Use a template element to describe the base html for an individual fruit list item (`li`)
+    1. Add `<script>` for you js files!
 1. In `app.js`:
     1. "import" (`globals`) `fruits` from `fruit.js`
     1. "export" (`exported`) the `App` class
     1. Before the class definition, create a template variable and assign it the template content from the 
     template element in `index.html` (Don't forget to use the `.content` property to get the document fragment!)
     1. Define your `App` class (more below)
+1. In `main.js`, 
+    1. "import" (`globals`) `App` from `App.js`
+    1. Create an instance of the App class
+    1. Call `app.render()` and append result to root element from `index.html`
 1. In your `App` class:
     1. Define a constructor that assigns the fruit data to `this.fruits`
     1. Define a render method that will
