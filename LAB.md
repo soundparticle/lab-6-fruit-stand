@@ -46,3 +46,12 @@ You'll need to find images of each fruit to put in `images` folder.
             1. Modify those elements
             1. Append to `ul`
         1. return the `ul` element
+
+## Stretch Goals
+
+1. Add more properties to fruit data that enhance the app
+1. Add `:hover` pseudo-class to css to change design as user hovers
+
+## Super Stretch
+
+Add a "detail" element that when you click on each fruit, it displays some additional info about that fruit.
