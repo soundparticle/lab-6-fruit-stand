@@ -1,0 +1,2 @@
+# This is a simple list of fruits that displays the color, image, and name of the fruit.
+# All the above values of each fruit are displayed, including a picture of them which are appended to the <ul> of the index.html page by manipulating the DOM. 
