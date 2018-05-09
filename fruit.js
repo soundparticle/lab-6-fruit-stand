@@ -2,12 +2,14 @@
 var pineapple = {
     name: 'Pineapple',
     color: 'yellow',
-    costPerUnit: '$5', 
     imageSrc: 'images/pineapple.jpeg',
 
     createLi: function() {
         var li = document.createElement('li');
+        var pineappleImage = document.createElement('img');
+        pineappleImage.setAttribute('src', this.imageSrc);
         li.textContent = this.name;
+        li.appendChild(pineappleImage);
         return li;
     }
 }
@@ -16,12 +18,14 @@ var pineapple = {
 var kiwi = {
     name: 'Kiwi',
     color: 'green',
-    costPerUnit: '$1',
     imageSrc: 'images/kiwi.jpeg',
 
     createLi: function() {
         var li = document.createElement('li');
+        var kiwiImage = document.createElement('img');
+        kiwiImage.setAttribute('src', this.imageSrc);
         li.textContent = this.name;
+        li.appendChild(kiwiImage);
         return li;
     }
 }
@@ -30,17 +34,15 @@ var kiwi = {
 var mango = {
     name: 'Mango',
     color: 'orange',
-    costPerUnit: '$2',
     imageSrc: 'images/mango.jpeg',
 
     createLi: function() {
         var li = document.createElement('li');
         var mangoImage = document.createElement('img');
         mangoImage.setAttribute('src', this.imageSrc);
-        li.appendChild(mangoImage); 
         li.textContent = this.name;
+        li.appendChild(mangoImage); 
         return li;
-        createLi: 
     }
 }
 
@@ -48,12 +50,14 @@ var mango = {
 var coconut = {
     name: 'Coconut',
     color: 'white',
-    costPerUnit: '$4',
     imageSrc: 'images/coconut.jpeg',
 
     createLi: function() {
         var li = document.createElement('li');
+        var coconutImage = document.createElement('img');
+        coconutImage.setAttribute('src', this.imageSrc);
         li.textContent = this.name;
+        li.appendChild(coconutImage);
         return li;
     }
 },
